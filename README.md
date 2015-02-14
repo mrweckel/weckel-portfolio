@@ -1,1 +1,1 @@
-# weckel-portfolio
+Interactive portfolio built with love and a Sails framework.
