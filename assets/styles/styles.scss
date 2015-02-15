@@ -1,0 +1,60 @@
+html,body{
+  margin:0;
+  font-family: 'Hind', sans-serif;
+}
+
+canvas{
+  display:block;
+  vertical-align:bottom;
+}
+
+#particles-js{
+  height:100%;
+  background:#000;
+  position:relative;
+  padding-bottom: 0;
+
+}
+
+.nav-class{
+  color: #fff;
+  font-size: 2em;
+}
+
+#portfolio{
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+#about{
+  position: absolute;
+  top: 5%;
+  right: 5%;
+}
+
+#client{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+#fun{
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+}
+
+#weckel{
+  position: absolute;
+  width: 400px;
+  right: 0;
+  left: 0;
+  margin: 20% auto;
+}
+
+#weckel-text{
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+}
