@@ -6,26 +6,22 @@
  */
 
 module.exports = {
-	
 
-
-  /**
-   * `UserController.index()`
-   */
   index: function (req, res) {
     return res.json({
       todo: 'index() is not implemented yet!'
     });
   },
 
-
-  /**
-   * `UserController.create()`
-   */
   create: function (req, res) {
-    return res.json({
-      todo: 'create() is not implemented yet!'
-    });
+    var params = req.params.all();
+
+    User.create({name: params.name}).exec(function createCB(err, created){
+        return res.json({
+          notice: 'Created user with name ' + created.name
+        });
+      }
+    );
   },
 
 
