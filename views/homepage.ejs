@@ -1,26 +1,17 @@
 
 <div id="particles-js">
+
   <nav>
-
-    <div id="portfolio">
-      <p class="nav-class">Portfolio</p>
-    </div>
-
-    <div id="about">
-      <p class="nav-class">About</p>
-    </div>
-
-    <div id="client">
-      <p class="nav-class">Client</p>
-    </div>
-
-    <div id="fun">
-      <p class="nav-class">Fun</p>
-    </div>
-
+    <%- partial ('nav.ejs') %>
   </nav>
 
-  <div id="weckel">
-    <h1 id="weckel-text">Weckel.</p>
+  <div id="index">
+    <%- partial ('index/title.ejs') %>
   </div>
+
+  <div id="portfolio-container">
+    <%- partial ('portfolio/content.ejs') %>
+  </div>
+
 </div>
+
