@@ -9,9 +9,9 @@ canvas{
 }
 
 #particles-js{
-  height:100%;
-  background:#000;
-  position:relative;
+  height: 100%;
+  background: #000;
+  position: relative;
   padding-bottom: 0;
 
 }
@@ -57,4 +57,29 @@ canvas{
   color: #fff;
   font-size: 3em;
   text-align: center;
+}
+
+#portfolio{
+  color: #fff;
+}
+
+.content-thumbs{
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+#portfolio-container{
+  width: 705px;
+  position: absolute;
+  top: 15%;
+  margin-left: -367.5px;
+  left: 50%;
+}
+
+// #gallery-container{
+//   width: 750px;
+// }
+
+#gallery{
+  display: inline-block;
 }
