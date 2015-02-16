@@ -19,7 +19,13 @@ canvas{
 .nav-class{
   color: #fff;
   font-size: 2em;
+
+  a{
+    color: #fff;
+    text-decoration: none;
+  }
 }
+
 
 #portfolio{
   position: absolute;
@@ -82,4 +88,9 @@ canvas{
 
 #gallery{
   display: inline-block;
+}
+
+// LINKS
+.active a{
+  color: #fcacac;
 }
