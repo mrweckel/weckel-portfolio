@@ -1,0 +1,8 @@
+
+<div id="gallery-container" ng-controller="ContentController as content">
+
+  <div id="gallery" ng-repeat="project in content.projects">
+    <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
+  </div>
+
+</div>
