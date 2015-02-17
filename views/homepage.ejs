@@ -2,15 +2,15 @@
 <div id="particles-js">
 
   <div ng-controller="PageController as pgCtrl">
-    <site-navigation></site-navigation>
+
 
     <index ng-show="pgCtrl.isSelected(0)"></index>
 
 
-    <div id="portfolio-container" ng-show="pgCtrl.isSelected(1)">
-      <%- partial ('portfolio/content.ejs') %>
-    </div>
+    <portfolio-container ng-show="pgCtrl.isSelected(1)"></portfolio-container>
   </div>
+
+  <arrows></arrows>
 
 </div>
 
