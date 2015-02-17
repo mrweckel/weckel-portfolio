@@ -61,7 +61,7 @@
       ]
     },
     {
-      title: 'Intel Make It Wearable Series',
+      title: 'Intel Make It Wearable',
       category: 'film',
       video_url: 'https://www.youtube.com/watch?v=O0iPNr-142Q',
       url: false,
@@ -75,7 +75,7 @@
       ]
     },
     {
-      title: 'Mastermind: Sly Stallone Edition',
+      title: 'Mastermind: Sly Stallone',
       category: 'development',
       video_url: false,
       url: 'http://mastermind-stallone-edition.herokuapp.com/',
