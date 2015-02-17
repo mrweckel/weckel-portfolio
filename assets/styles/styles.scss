@@ -91,7 +91,37 @@ site-navigation{
 
 #gallery{
   display: inline-block;
+  margin: 0 20px 5px 0;
 }
+
+#gallery .thumb-overlay{
+  position: absolute;
+  height: 135px;
+  width: 235px;
+  background-color: #fff;
+  h3{
+    width: 235px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 135px;
+    margin: 0;
+    -webkit-transform:scale(1.5, 3);
+    moz-transform:scale(1.5, 3);
+    -ms-transform:scale(1.5, 3);
+    -o-transform:scale(1.5, 3);
+  }
+}
+
+#gallery-container {
+  div:nth-child(3n+3){
+    margin-right: 0;
+  }
+  div:nth-last-child(-n+3) {
+    margin-bottom: 0;
+  }
+}
+
+
 
 // LINKS
 .active a{
