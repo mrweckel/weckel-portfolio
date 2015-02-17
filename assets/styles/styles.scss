@@ -148,3 +148,20 @@ portfolio-container{
   -webkit-transition:1s;
   transition:1s;
 }
+
+//Arrows
+#arrow-down{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 43.3px 25px 0 25px;
+  border-color: #ffffff transparent transparent transparent;
+  position: absolute;
+  margin-top: 2.5%;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+#arrow-down:hover{
+  cursor: pointer;
+}
