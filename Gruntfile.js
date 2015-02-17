@@ -31,7 +31,7 @@ module.exports = function(grunt) {
 			console.error('npm install include-all --save`');
 			console.error();
 
-			grunt.registerTask('default', []);
+			grunt.registerTask('default', 'heroku:production', []);
 			return;
 		}
 	}
