@@ -1,7 +1,17 @@
 
-<div id="gallery-container" ng-controller="ContentController as content" ng-show="page===1">
+<div id="gallery-container"
+     ng-controller="ContentController as content"
+     ng-show="pgCtrl.isSelected(1)"
+     class="velocity-transition-bounceDownIn"
+     data-velocity-opts="{
+       duration: 2000
+        }">
 
-  <div id="gallery" ng-repeat="project in content.projects">
+  <div id="gallery" ng-repeat="project in content.projects"
+  >
+    <div class="thumb-overlay">
+      <h3>{{project.title}}</h3>
+    </div>
     <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
   </div>
 

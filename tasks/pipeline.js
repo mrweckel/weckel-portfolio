@@ -29,7 +29,7 @@ var jsFilesToInject = [
   //Load velocity in correct order
   'js/dependencies/velocity.min.js',
   'js/dependencies/velocity.ui.min.js',
-  'js/dependencies/velocity.ui.angular.min.js',
+  'js/dependencies/angular-velocity.min.js',
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
