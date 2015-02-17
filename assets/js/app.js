@@ -7,6 +7,7 @@
       this.projects = works;
   });
 
+
   app.controller('PageController', function(){
     this.page = 0;
     this.selectPage = function(setPage){
@@ -28,6 +29,20 @@
     return{
       restrict: 'E',
       templateUrl: 'templates/index.html'
+    }
+  });
+
+  app.directive('portfolioContainer', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/portfolio.html'
+      }
+  });
+
+  app.directive('arrows', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'templates/arrows.html'
     }
   });
 
