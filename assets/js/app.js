@@ -1,7 +1,7 @@
 (function(){
   'use strict'
 
-  var app = angular.module('port', ['ngAnimate']);
+  var app = angular.module('port', ['velocity-ui','ngAnimate']);
 
   app.controller('ContentController',function(){
       this.projects = works;
