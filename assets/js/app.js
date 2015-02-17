@@ -7,6 +7,30 @@
       this.projects = works;
   });
 
+  app.controller('PageController', function(){
+    this.page = 0;
+    this.selectPage = function(setPage){
+      this.page = setPage;
+    };
+    this.isSelected = function(checkPage){
+      return this.page === checkPage;
+    };
+  });
+
+  app.directive('siteNavigation', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'templates/site-navigation.html'
+    }
+  });
+
+  app.directive('index', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'templates/index.html'
+    }
+  });
+
   var works = [
     {
       title: 'Ferrari Scuderia',
