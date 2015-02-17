@@ -4,12 +4,12 @@
   <div ng-controller="PageController as pgCtrl">
     <site-navigation></site-navigation>
 
-  <div id="index" ng-init="page=0">
-    <%- partial ('index/title.ejs') %>
-  </div>
+    <index ng-show="pgCtrl.isSelected(0)"></index>
 
-  <div id="portfolio-container">
-    <%- partial ('portfolio/content.ejs') %>
+
+    <div id="portfolio-container" ng-show="pgCtrl.isSelected(1)">
+      <%- partial ('portfolio/content.ejs') %>
+    </div>
   </div>
 
 </div>
