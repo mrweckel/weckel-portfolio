@@ -1,9 +1,8 @@
 
 <div id="particles-js">
 
-  <nav class="nav-class">
-    <%- partial ('nav.ejs') %>
-  </nav>
+  <div ng-controller="PageController as pgCtrl">
+    <site-navigation></site-navigation>
 
   <div id="index" ng-init="page=0">
     <%- partial ('index/title.ejs') %>
