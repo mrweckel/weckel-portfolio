@@ -174,21 +174,8 @@
       ]
     }
   ]
+
 })();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* particlesJS('dom-id', params);
 /* @dom-id : set the html tag id [string, optional, default value : particles-js]
