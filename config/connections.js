@@ -21,13 +21,18 @@
 
 module.exports.connections = {
 
-  myMongodbServer: {
+  // myMongodbServer: {
+  //   adapter: 'sails-mongo',
+  //   host: 'localhost',
+  //   port: 27017,
+  //   database: 'portdb2'
+  //   // user: 'username',
+  //   // password: 'password',
+  // },
+
+  productionMongoHqDb: {
     adapter: 'sails-mongo',
-    host: 'localhost',
-    port: 27017,
-    database: 'portdb2'
-    // user: 'username',
-    // password: 'password',
+    url: process.env.DB_URL
   }
 
 };
