@@ -68,6 +68,7 @@ module.exports = function(grunt) {
 	// Load task functions
 	var taskConfigurations = loadTasks('./tasks/config'),
 		registerDefinitions = loadTasks('./tasks/register');
+		grunt.loadTasks('node_modules/grunt-contrib-sass/tasks');
 
 	// (ensure that a default task exists)
 	if (!registerDefinitions.default) {
