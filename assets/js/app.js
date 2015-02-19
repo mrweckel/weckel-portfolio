@@ -60,12 +60,11 @@
     }
   });
 
-  app.directive('portfolioContainer', function(){
-      return{
-        restrict: 'E',
-        templateUrl: 'templates/portfolio.html'
-      }
-  });
+  // app.directive('portfolioContainer', function(){
+  //     return{
+  //       restrict: 'E',
+  //     }
+  // });
 
   app.directive('arrows', function(){
     return{
