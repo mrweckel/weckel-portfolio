@@ -33,10 +33,13 @@
     };
   });
 
-  app.controller('ContentController',function(){
-      this.projects = works;
+  app.controller('AboutController', function($scope){
+      $scope.message = 'ABOUT MEEEEEEE'
   });
 
+  app.controller('ContentController',function($scope){
+      this.projects = works;
+  });
 
   app.directive('siteNavigation', function(){
     return{
