@@ -321,9 +321,81 @@ site-navigation{
   cursor: pointer;
 }
 
-// Animate
+#arrow-left{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 43.3px 25px 0;
+  border-color: transparent #fff transparent transparent;
+  position: absolute;
+  top: 25%;
+  left: -35%;
+  transform: translateY(-25%);
+}
 
-.ng-enter, .ng-leave, .ng-show, .ng-hide{
-  opacity: 0;
-  top: -100%;
+
+/*ICONS*/
+
+#icon-container{
+  position: absolute;
+  height: 375px;
+  left: 23.5%;
+}
+
+.social-icons{
+  margin: 0 auto;
+  padding: 0;
+  white-space: nowrap;
+  overflow: auto;
+  width: 430px;
+  position: absolute;
+  bottom: 0;
+}
+
+.social-icons > li{
+  list-style: none;
+  display: inline-block;
+  height: 54px;
+  width: 56px;
+  float: left;
+  margin-right: 30px;
+}
+
+.linkedin{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+}
+
+.github{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+  background-position: -91px 0;
+}
+
+.vimeo{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+  background-position: -180px 0;
+}
+
+.instagram{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+  background-position: -268px 0;
+}
+
+.twitter{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+  background-position: -354px 0;
 }
