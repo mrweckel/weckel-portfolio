@@ -33,11 +33,16 @@
     };
   });
 
+  app.controller('IndexController', function($scope){
+      $scope.pageClass = 'index';
+  });
+
   app.controller('AboutController', function($scope){
-      $scope.message = 'ABOUT MEEEEEEE'
+      $scope.pageClass = 'page-about';
   });
 
   app.controller('ContentController',function($scope){
+      $scope.pageClass = 'page-portfolio';
       this.projects = works;
   });
 
