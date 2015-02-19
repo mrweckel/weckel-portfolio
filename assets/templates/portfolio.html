@@ -1,17 +1,15 @@
+<div id="portfolio-container" ng-controller="ContentController as contentCtrl">
+  <div id="gallery-container">
 
-<div id="gallery-container"
+    <div id="gallery"
+         ng-repeat="project in contentCtrl.projects">
 
-     ng-controller="ContentController as contentCtrl">
-
-  <div id="gallery"
-       ng-repeat="project in contentCtrl.projects">
-
-    <div class="thumb-overlay">
-      <h3>{{project.title}}</h3>
+      <div class="thumb-overlay">
+        <h3>{{project.title}}</h3>
+      </div>
+      <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
     </div>
-    <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
+
+    <a href="#/" id="arrow-down" ></a>
   </div>
-
-  <div id="arrow-down" ng-click="pgCtrl.selectPage(0)"></div>
-
 </div>
