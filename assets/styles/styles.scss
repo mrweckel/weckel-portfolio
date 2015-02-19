@@ -1,6 +1,9 @@
+$font1: 'Hind';
+$font2: 'Amatic SC';
+
 html,body{
   margin:0;
-  font-family: 'Hind', sans-serif;
+  font-family: $font1, sans-serif;
 }
 
 canvas{
@@ -9,7 +12,7 @@ canvas{
 }
 
 h3{
-  font-family: "Amatic SC", cursive;
+  font-family: $font2, cursive;
   font-weight: 400;
   font-size: 2em;
 }
