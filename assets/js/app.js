@@ -3,13 +3,9 @@
 
   var app = angular.module('port', ['angular-velocity','ngAnimate']);
 
-  app.controller('ContentController',function(){
-      this.projects = works;
-  });
-
-
-  app.controller('PageController', function(){
+    app.controller('PageController', function(){
     this.page = 0;
+    this.isHidden = false;
     this.selectPage = function(setPage){
       this.page = setPage;
     };
@@ -17,6 +13,11 @@
       return this.page === checkPage;
     };
   });
+
+  app.controller('ContentController',function(){
+      this.projects = works;
+  });
+
 
   app.directive('siteNavigation', function(){
     return{
