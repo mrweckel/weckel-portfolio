@@ -56,14 +56,16 @@ site-navigation{
 
 #client{
   position: absolute;
-  bottom: 5%;
-  left: 5%;
+  top: 50%;
+  left: 0;
+  transform: translate(0,-50%) rotate(90deg);
 }
 
 #fun{
   position: absolute;
-  bottom: 5%;
-  right: 5%;
+  right:50%;
+  bottom: 0;
+  transform: translate(50%,0);
 }
 
 /*NAVIGATION END*/
