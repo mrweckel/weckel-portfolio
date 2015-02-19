@@ -1,14 +1,14 @@
 (function(){
   'use strict'
 
-  var app = angular.module('port', ['angular-velocity','ngAnimate']);
+  var app = angular.module('port', ['angular-velocity','ngRoute','ngAnimate']);
 
   app.config(function($routeProvider){
     $routeProvider
 
     .when('/',{
       templateUrl : 'templates/index.html',
-      controller: "PageController"
+      controller: "IndexController"
     })
 
     .when('/about', {
@@ -17,14 +17,14 @@
     })
 
     .when('/portfolio', {
-      templateUrl: 'ContentController'
+      templateUrl: 'templates/portfolio.html',
+      controller: 'ContentController'
     });
 
   });
 
   app.controller('PageController', function($scope){
     this.page = 0;
-    this.isHidden = false;
     this.selectPage = function(setPage){
       this.page = setPage;
     };
