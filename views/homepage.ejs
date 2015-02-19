@@ -2,15 +2,18 @@
 <div id="particles-js">
 
   <div ng-controller="PageController as pgCtrl">
+    <div id="main">
+      <div ng-view>
+
+      <index ng-animate="'animate'" ng-show="pgCtrl.isSelected(0)"></index>
 
 
-    <index ng-animate="'animate'" ng-show="pgCtrl.isSelected(0)"></index>
+      <portfolio-container ng-animate="'animate'" ng-show="pgCtrl.isSelected(1)" ></portfolio-container>
 
 
-    <portfolio-container ng-animate="'animate'" ng-show="pgCtrl.isSelected(1)" ></portfolio-container>
+      <arrows></arrows>
+    </div>
+    </div>
   </div>
-
-  <arrows></arrows>
-
 </div>
 
