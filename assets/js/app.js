@@ -3,7 +3,26 @@
 
   var app = angular.module('port', ['angular-velocity','ngAnimate']);
 
-    app.controller('PageController', function(){
+  app.config(function($routeProvider){
+    $routeProvider
+
+    .when('/',{
+      templateUrl : 'templates/index.html',
+      controller: "PageController"
+    })
+
+    .when('/about', {
+      templateUrl: 'templates/about.html',
+      controller: 'AboutController'
+    })
+
+    .when('/portfolio', {
+      templateUrl: 'ContentController'
+    });
+
+  });
+
+  app.controller('PageController', function($scope){
     this.page = 0;
     this.isHidden = false;
     this.selectPage = function(setPage){
