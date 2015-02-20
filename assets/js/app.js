@@ -58,6 +58,7 @@
     }
   });
 
+//SIDEBAR BEGIN
   app.directive("projectSidebar", function(){
     return{
       restrict: 'E',
@@ -67,7 +68,7 @@
     }
   })
 
-  app.directive('ferrariProject', function(){
+  app.directive('ferrari', function(){
       return{
         restrict: 'E',
         templateUrl: 'templates/projects/ferrari.html',
@@ -78,12 +79,96 @@
       }
   });
 
-  app.directive('arrows', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'templates/arrows.html'
-    }
+  app.directive('foodFinder', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/food-finder.html',
+        controller: function(){
+          this.project = works[1];
+        },
+        controllerAs:'food'
+      }
   });
+
+  app.directive('makeItWearable', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/wearable.html',
+        controller: function(){
+          this.project = works[2];
+        },
+        controllerAs:'wearable'
+      }
+  });
+
+  app.directive('mastermind', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/mastermind.html',
+        controller: function(){
+          this.project = works[3];
+        },
+        controllerAs:'mastermind'
+      }
+  });
+
+  app.directive('dreams', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/dreams.html',
+        controller: function(){
+          this.project = works[4];
+        },
+        controllerAs:'dreams'
+      }
+  });
+
+  app.directive('static', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/static.html',
+        controller: function(){
+          this.project = works[5];
+        },
+        controllerAs:'static'
+      }
+  });
+
+  app.directive('youtube', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/youtube.html',
+        controller: function(){
+          this.project = works[6];
+        },
+        controllerAs:'youtube'
+      }
+  });
+
+  app.directive('pitchstart', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/pitchstart.html',
+        controller: function(){
+          this.project = works[7];
+        },
+        controllerAs:'pitchstart'
+      }
+  });
+
+  app.directive('dumbo', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/dumbo.html',
+        controller: function(){
+          this.project = works[8];
+        },
+        controllerAs:'dumbo'
+      }
+  });
+
+
+  //SIDEBAR END
 
   var works = [
     {
