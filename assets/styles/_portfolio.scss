@@ -76,9 +76,72 @@ project-sidebar.active{
   right:0;
 }
 
+project-sidebar h1{
+  font-size: 1.5em;
+  margin: 50px;
+  line-height: 25px;
+}
+
+project-sidebar p{
+  margin: 50px 20px 0 20px;
+}
 
 
 
+//images
+.content-full-film{
+  border: #000 1px solid;
+  margin-top: 50px;
+}
 
+.content-full-development{
+  margin-top: 50px;
+}
+
+
+$btn-height: 50px;
+$btn-bg: rgba(255, 255, 255, 0.8);
+$btn-color: #000;
+
+.btn{
+  width: 150px;
+  height: $btn-height;
+  background: $btn-bg;
+  border: 1px #000 solid;
+  color: $btn-color;
+  margin: 0 auto;
+  p{
+    line-height: $btn-height;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+  }
+}
+
+.btn-a{
+  @extend .btn;
+  float: left;
+  margin: 0 0 0 12.5%;
+}
+
+.btn-b{
+  @extend .btn;
+  float: right;
+  margin: 0 12.5% 0 0;
+}
+
+.btn:hover{
+  background: invert($btn-bg);
+  color: invert($btn-color);
+}
+
+//footer
+footer#sidebar{
+  border: 1px solid #000;
+  width: 85%;
+  margin: 50px auto;
+  p{
+    margin: 10px;
+  }
+}
 
 /*PORTFOLIO END*/
