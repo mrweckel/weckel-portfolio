@@ -87,6 +87,7 @@
 
   var works = [
     {
+      id: 1,
       title: 'Ferrari Scuderia',
       category: 'film',
       video_url: 'https://www.youtube.com/watch?v=31in9i03OOs',
@@ -101,6 +102,7 @@
       ]
     },
     {
+      id: 2,
       title: 'The Food Finder',
       category: 'development',
       video_url: false,
@@ -115,6 +117,7 @@
       ]
     },
     {
+      id: 3,
       title: 'Intel Make It Wearable',
       category: 'film',
       video_url: 'https://www.youtube.com/watch?v=O0iPNr-142Q',
@@ -129,6 +132,7 @@
       ]
     },
     {
+      id: 4,
       title: 'Mastermind: Sly Stallone',
       category: 'development',
       video_url: false,
@@ -143,6 +147,7 @@
       ]
     },
     {
+      id: 5,
       title: 'Dreams',
       category: 'development',
       video_url: false,
@@ -157,6 +162,7 @@
       ]
     },
     {
+      id: 6,
       title: 'Static: Music Video',
       category: 'film',
       video_url: 'https://www.youtube.com/watch?v=oEgbn_OZJ9Y',
@@ -171,6 +177,7 @@
       ]
     },
     {
+      id: 7,
       title: 'Youtube Music Awards',
       category: 'film',
       video_url: 'https://www.youtube.com/watch?v=ZXlSgJIE8Io',
@@ -185,6 +192,7 @@
       ]
     },
     {
+      id: 8,
       title: 'PitchStart',
       category: 'development',
       video_url: false,
@@ -199,6 +207,7 @@
       ]
     },
     {
+      id: 9,
       title: 'Crossing Dumbo',
       category: 'film',
       video_url: 'https://vimeo.com/35782011',
