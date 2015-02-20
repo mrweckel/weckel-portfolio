@@ -11,9 +11,15 @@
         </div>
         <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
       </div>
-      <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
-    </div>
+     </a>
 
     <a href="#/" id="arrow-up" ></a>
+
+
   </div>
+
+  <div id="sidebar-wrapper">
+    <project-sidebar ng-class="{active : contentCtrl.page != 0}"></project-sidebar>
+  </div>
+
 </div>
