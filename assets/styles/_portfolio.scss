@@ -13,6 +13,10 @@ $port_show: 15%;
 
 #portfolio-container{
   @extend .page-portfolio;
+  &.slide{
+    left: 30%;
+    @include trans(0.3s);
+  }
 }
 
 
