@@ -23,16 +23,6 @@
 
   });
 
-  app.controller('PageController', function($scope){
-    this.page = 0;
-    this.selectPage = function(setPage){
-      this.page = setPage;
-    };
-    this.isSelected = function(checkPage){
-      return this.page === checkPage;
-    };
-  });
-
   app.controller('IndexController', function($scope){
       $scope.pageClass = 'index';
   });
@@ -44,6 +34,13 @@
   app.controller('ContentController',function($scope){
       $scope.pageClass = 'page-portfolio';
       this.projects = works;
+      this.page = 0;
+      this.setPage = function(setPage){
+        this.page = setPage;
+      };
+      this.isSelected = function(checkPage){
+        return this.page === checkPage;
+      };
   });
 
   app.directive('siteNavigation', function(){
