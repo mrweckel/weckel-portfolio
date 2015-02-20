@@ -174,14 +174,19 @@
     {
       id: 1,
       title: 'Ferrari Scuderia',
+      full_title: 'Scuderia Corsa 120: Raceday at Laguna Seca with Ferrari',
       category: 'film',
-      video_url: 'https://www.youtube.com/watch?v=31in9i03OOs',
+      video_url: "https://www.youtube.com/watch?v=31in9i03OOs",
       url: false,
       github: false,
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/ferrari/ferrari-1.jpg',
+            '/images/content_full/ferrari/ferrari-2.jpg',
+            '/images/content_full/ferrari/ferrari-3.jpg'
+            ],
           thumb: '/images/content_thumbs/ferrari-thm.jpg'
         }
       ]
@@ -196,7 +201,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/food-finder/food-finder-1.png',
+            '/images/content_full/food-finder/food-finder-2.png',
+            '/images/content_full/food-finder/food-finder-3.png'
+            ],
           thumb: '/images/content_thumbs/food-finder-thm.jpg'
         }
       ]
@@ -236,12 +245,16 @@
       title: 'Dreams',
       category: 'development',
       video_url: false,
-      url: 'http://memoryfinder.heroku.app',
+      url: 'http://memoryfinder.herokuapp.com/',
       github: 'https://github.com/mrweckel/dreams',
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/dreams/dreams-1.png',
+            '/images/content_full/dreams/dreams-2.png',
+            '/images/content_full/dreams/dreams-3.png'
+            ],
           thumb: '/images/content_thumbs/dreams-thm.jpg'
         }
       ]
