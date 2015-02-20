@@ -1,0 +1,8 @@
+@mixin trans($val...){
+  -webkit-transition: $val;
+  -moz-transition:    $val;
+  -o-transition:      $val;
+  transition:         $val;
+}
+
+$trans_speed: 1.0s !default;
