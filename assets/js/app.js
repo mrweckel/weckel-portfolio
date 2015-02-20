@@ -34,6 +34,7 @@
   app.controller('ContentController',function($scope){
       $scope.pageClass = 'page-portfolio';
       this.projects = works;
+
       this.page = 0;
       this.setPage = function(setPage){
         this.page = setPage;
@@ -57,11 +58,25 @@
     }
   });
 
-  // app.directive('portfolioContainer', function(){
-  //     return{
-  //       restrict: 'E',
-  //     }
-  // });
+  app.directive("projectSidebar", function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'templates/project-sidebar.html',
+      controller: 'ContentController',
+      controllerAs: 'contentCtrl'
+    }
+  })
+
+  app.directive('ferrariProject', function(){
+      return{
+        restrict: 'E',
+        templateUrl: 'templates/projects/ferrari.html',
+        controller: function(){
+          this.project = works[0];
+        },
+        controllerAs:'ferrari'
+      }
+  });
 
   app.directive('arrows', function(){
     return{
