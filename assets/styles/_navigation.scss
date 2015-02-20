@@ -1,17 +1,17 @@
 /*NAVIGATION start*/
 
 $nav-items: portfolio about client fun;
+$link_color: #000;
 
 site-navigation{
-  color: #000;
+  color: $link_color;
   font-size: 2em;
 
   a{
-    color: #000;
+    color: $link_color;
     text-decoration: none;
   }
 }
-
 
 @each $nav-item in $nav-items{
   ##{$nav-item}{
