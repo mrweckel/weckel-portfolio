@@ -1,0 +1,51 @@
+/*NAVIGATION start*/
+
+$nav-items: portfolio about client fun;
+
+site-navigation{
+  color: #000;
+  font-size: 2em;
+
+  a{
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+
+@each $nav-item in $nav-items{
+  ##{$nav-item}{
+    position: absolute;
+  }
+}
+
+@mixin nav-pos($side_1,$pos_1,$side_2,$pos_2){
+  #{$side_1}: $pos_1;
+  #{$side_2}: $pos_2;
+}
+
+@mixin nav-trans($x, $y, $deg:0){
+  transform: translate($x, $y) rotate(#{$deg}deg);
+}
+
+#portfolio{
+  @include nav-pos(top, 2.5%, left, 50%);
+  @include nav-trans(-50%,0,-180);
+}
+
+#about{
+  @include nav-pos(top, 50%, right, 0);
+  @include nav-trans(0,-50%,-90);
+}
+
+#client{
+  @include nav-pos(top, 50%, left, 0);
+  @include nav-trans(0,-50%,90);
+}
+
+#fun{
+  @include nav-pos(bottom, 0, right, 50%);
+  @include nav-trans(50%,0);
+}
+
+/*NAVIGATION END*/
