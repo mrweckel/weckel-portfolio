@@ -1,0 +1,45 @@
+/*PORTFOLIO*/
+$port_width: 745px;
+$port_hide: -600px;
+$port_show: 15%;
+
+.page-portfolio {
+  position: absolute;
+  width: $port_width;
+  top: 15%;
+  left: 50%;
+  margin-left: -367.5px;
+}
+
+#portfolio-container{
+  @extend .page-portfolio;
+}
+
+
+.page-portfolio.ng-enter, .page-portfolio.ng-leave {
+  position:absolute;
+  @include trans($trans_speed linear all);
+}
+
+.page-portfolio.ng-enter {
+  z-index:100;
+  top: $port_hide;
+  opacity:0;
+}
+.page-portfolio.ng-enter.ng-enter-active {
+  top: $port_show;
+  opacity:1;
+}
+
+.page-portfolio.ng-leave {
+  @extend .page-portfolio.ng-enter.ng-enter-active;
+  z-index: 101;
+}
+
+.page-portfolio.ng-leave.ng-leave-active {
+  @extend .page-portfolio.ng-enter;
+  z-index: 0;
+}
+
+
+/*PORTFOLIO END*/
