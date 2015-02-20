@@ -45,5 +45,30 @@ $port_show: 15%;
   z-index: 0;
 }
 
+/*sidebar*/
+#sidebar-wrapper{
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+project-sidebar{
+  width: 450px;
+  position: relative;
+  right:-100%;
+  height: auto;
+  float: right;
+  background: red;
+}
+
+project-sidebar.active{
+  @include trans(0.3s linear all);
+  right:0;
+}
+
+
+
+
+
 
 /*PORTFOLIO END*/
