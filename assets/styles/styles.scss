@@ -84,54 +84,6 @@ h3{
 }
 /*INDEX END*/
 
-/*PORTFOLIO*/
-.page-portfolio {
-  position:absolute;
-  width: 745px;
-  top: 15%;
-  margin-left: -367.5px;
-  left: 50%;
-  background-color: red;
-}
-.page-portfolio.ng-enter, .page-portfolio.ng-leave {
-  -webkit-transition:1.0s linear all;
-  transition:1.0s linear all;
-  position:absolute;
-}
-
-.page-portfolio.ng-enter {
-  z-index:100;
-  top:-600px;
-  opacity:0;
-}
-.page-portfolio.ng-enter.ng-enter-active {
-  top:15%;
-  opacity:1;
-}
-
-.page-portfolio.ng-leave {
-  z-index:101;
-  top:15%;
-  opacity:1;
-}
-.page-portfolio.ng-leave.ng-leave-active {
-  top:-600px;
-  opacity:0;
-}
-
-#portfolio-container{
-  width: 745px;
-  position: absolute;
-  top: 15%;
-  margin-left: -367.5px;
-  left: 50%;
-  // -webkit-transition: all 1.0s ease;
-  // -moz-transition:    all 1.0s ease;
-  // -o-transition:      all 1.0s ease;
-}
-/*PORTFOLIO END*/
-
-
 /*ABOUT*/
 .page-about {
   position:absolute;
