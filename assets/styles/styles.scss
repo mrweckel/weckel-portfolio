@@ -32,51 +32,6 @@ h3{
     left:0px;
 }
 
-
-
-
-site-navigation{
-  color: #000;
-  font-size: 2em;
-
-  a{
-    color: #000;
-    text-decoration: none;
-  }
-}
-
-/*NAVIGATION start*/
-#portfolio{
-  position: absolute;
-  left: 50%;
-  top: 2.5%;
-  transform: translate(-50%,0) rotate(-180deg);
-}
-
-#about{
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translate(0,-50%) rotate(-90deg);
-}
-
-#client{
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translate(0,-50%) rotate(90deg);
-}
-
-#fun{
-  position: absolute;
-  right:50%;
-  bottom: 0;
-  transform: translate(50%,0);
-}
-
-/*NAVIGATION END*/
-
-
 #weckel{
   position: absolute;
   top: 50%;
