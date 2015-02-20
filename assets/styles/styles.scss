@@ -1,5 +1,4 @@
 
-
 $font1: 'Hind';
 $font2: 'Amatic SC';
 
@@ -60,9 +59,8 @@ h3{
   opacity: 1;
 }
 .index.ng-enter, .index.ng-leave {
-  -webkit-transition:1.0s linear all;
-  transition:1.0s linear all;
   position:absolute;
+  @include trans($trans_speed linear all);
 }
 
 .index.ng-enter {
@@ -145,8 +143,7 @@ h3{
   color: #fff;
 }
 .page-about.ng-enter, .page-about.ng-leave {
-  -webkit-transition:1.0s linear all;
-  transition:1.0s linear all;
+  @include trans($trans_speed linear all);
   position:absolute;
 }
 
