@@ -14,7 +14,7 @@ $port_show: 15%;
 #portfolio-container{
   @extend .page-portfolio;
   &.slide{
-    left: 30%;
+    left: 10%;
     @include trans(0.3s);
   }
 }
@@ -52,13 +52,23 @@ $port_show: 15%;
   right: 0;
 }
 
+$sidebar-grey: rgba(189, 189, 189, 0.7);
+
 project-sidebar{
   width: 450px;
   position: relative;
   right:-100%;
-  height: auto;
+  height: 100vh;
+  overflow: scroll;
   float: right;
-  background: red;
+  background-color: #fff;
+  text-align: center;
+  // border-left: 1px solid black;
+  box-shadow: inset 10px -1px 22px -8px;;
+  // background-image: linear-gradient(45deg, $sidebar-grey 25%, transparent 25%, transparent 75%, $sidebar-grey 75%, $sidebar-grey),
+  // linear-gradient(45deg, $sidebar-grey 25%, transparent 25%, transparent 75%, $sidebar-grey 75%, $sidebar-grey);
+  // background-size:60px 60px;
+  // background-position:0 0, 30px 30px;
 }
 
 project-sidebar.active{
