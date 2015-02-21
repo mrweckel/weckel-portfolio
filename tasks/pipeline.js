@@ -26,6 +26,11 @@ var jsFilesToInject = [
   // Load sails.io before everything else
   'js/dependencies/sails.io.js',
 
+  //Load local angular for development
+  'js/dependencies/angular.min.js',
+  'js/dependencies/angular.min.js.map',
+
+
   //Load velocity in correct order
   'js/dependencies/velocity.min.js',
   'js/dependencies/velocity.ui.min.js',
