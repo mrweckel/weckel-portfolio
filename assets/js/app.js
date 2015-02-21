@@ -220,7 +220,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/wearable/wearable-1.jpg',
+            '/images/content_full/wearable/wearable-2.jpg',
+            '/images/content_full/wearable/wearable-3.jpg'
+            ],
           thumb: '/images/content_thumbs/wearable-thm.jpg'
         }
       ]
@@ -228,6 +232,7 @@
     {
       id: 4,
       title: 'Mastermind: Sly Stallone',
+      full_title: 'Mastermind: Sylvester Stallone Edition',
       category: 'development',
       video_url: false,
       url: 'http://mastermind-stallone-edition.herokuapp.com/',
@@ -235,7 +240,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/mastermind/mastermind-1.jpg',
+            '/images/content_full/mastermind/mastermind-2.jpg',
+            '/images/content_full/mastermind/mastermind-3.png'
+            ],
           thumb: '/images/content_thumbs/stallone-thm.jpg'
         }
       ]
@@ -269,7 +278,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/static/static-1.jpg',
+            '/images/content_full/static/static-2.jpg',
+            '/images/content_full/static/static-3.jpg'
+            ],
           thumb: '/images/content_thumbs/static-thm.jpg'
         }
       ]
@@ -284,7 +297,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/youtube/youtube-1.jpg',
+            '/images/content_full/youtube/youtube-2.jpg',
+            '/images/content_full/youtube/youtube-3.jpg'
+            ],
           thumb: '/images/content_thumbs/youtube-thm.jpg'
         }
       ]
@@ -299,7 +316,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/pitchstart/pitchstart-1.png',
+            '/images/content_full/pitchstart/pitchstart-2.png',
+            '/images/content_full/pitchstart/pitchstart-3.png'
+            ],
           thumb: '/images/content_thumbs/pitchstarter-thm.jpg'
         }
       ]
@@ -314,7 +335,11 @@
       content: '',
       images: [
         {
-          full: '',
+          full: [
+            '/images/content_full/dumbo/dumbo-1.jpg',
+            '/images/content_full/dumbo/dumbo-2.jpg',
+            '/images/content_full/dumbo/dumbo-3.jpg'
+            ],
           thumb: '/images/content_thumbs/crossing-dumbo-thm.jpg'
         }
       ]
