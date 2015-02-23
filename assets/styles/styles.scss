@@ -162,6 +162,127 @@ h3{
 }
 /*ABOUT END*/
 
+/*CLIENT*/
+
+.page-client {
+  position:absolute;
+  width: 745px;
+  height: 600px;
+  top: 25%;
+  margin-right: -367.5px;
+  left: 50%;
+  color: #fff;
+}
+.page-client.ng-enter, .page-client.ng-leave {
+  @include trans($trans_speed linear all);
+  position:absolute;
+}
+
+.page-client.ng-enter {
+  z-index:100;
+  left:-600px;
+  opacity:0;
+}
+.page-client.ng-enter.ng-enter-active {
+  left: 50%;
+  opacity:1;
+}
+
+.page-client.ng-leave {
+  z-index:101;
+  left:50%;
+  opacity:1;
+}
+.page-client.ng-leave.ng-leave-active {
+  left:-600px;
+  opacity:0;
+}
+
+#login-container{
+  position: absolute;
+  top: 100px;
+  left: -30.5%;
+}
+
+// #login-form{
+//   position: fixed;
+//   top: 50%;
+//   left: 50%;
+//   transform: translate(-50%,-50%);
+// }
+
+#login-form > input{
+  display: block;
+  transform-origin:left top;
+  margin: 20px;
+  padding: 10px;
+  width: 400px;
+}
+
+#login-submit{
+  @extend .btn;
+
+}
+
+#login-submit > p{
+  line-height: $btn-height;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+}
+
+#login-submit:hover{
+  background: invert($btn-bg);
+  color: invert($btn-color);
+}
+
+
+
+/*CLIENT*/
+
+/*FUN*/
+#fun-container{
+  position: absolute;
+  top: 25%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5em;
+}
+
+.fun-client {
+  position:absolute;
+  width: 745px;
+  height: 600px;
+  top: 25%;
+  margin-right: -367.5px;
+  left: 50%;
+  color: #000;
+}
+
+.fun-client.ng-enter, .fun-client.ng-leave {
+  @include trans($trans_speed linear all);
+  position:absolute;
+}
+
+.fun-client.ng-enter {
+  z-index:100;
+  top: 600px;
+  opacity:0;
+}
+.fun-client.ng-enter.ng-enter-active {
+  top:25%;
+  opacity:1;
+}
+
+.fun-client.ng-leave {
+  @extend .fun-client.ng-enter.ng-enter-active;
+  z-index:101;
+}
+.fun-client.ng-leave.ng-leave-active {
+  @extend .fun-client.ng-enter;
+  z-index: 0;
+}
+
+/*FUN*/
+
 #gallery{
   display: inline-block;
   margin: 0 20px 5px 0;
@@ -220,8 +341,8 @@ h3{
   border-color: #000 transparent transparent transparent;
   position: absolute;
   margin-top: 2.5%;
-  left: 50%;
-  transform: translate(-50%,0);
+  bottom: 15%;
+  transform: translate(-50%, 0);
 }
 #arrow-up{
   width: 0;
@@ -244,10 +365,10 @@ h3{
   height: 0;
   border-style: solid;
   border-width: 25px 43.3px 25px 0;
-  border-color: transparent #fff transparent transparent;
+  border-color: transparent #000 transparent transparent;
   position: absolute;
   top: 25%;
-  left: -35%;
+  left: -70%;
   transform: translateY(-25%);
 }
 
@@ -268,9 +389,9 @@ h3{
 
 #icon-container{
   position: absolute;
-  height: 55px;
+  height: 60px;
   bottom: 35%;
-  left: 50%;
+  left: 47.5%;
   width: 603px;
   transform: translate(-50%,0);
 }

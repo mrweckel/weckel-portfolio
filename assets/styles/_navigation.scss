@@ -43,8 +43,8 @@ site-navigation{
   @include nav-trans(0,-50%,90);
 }
 
-#fun{
-  @include nav-pos(bottom, 0, right, 50%);
+#portfolio{
+  @include nav-pos(bottom, 2.5%, right, 50%);
   @include nav-trans(50%,0);
 }
 

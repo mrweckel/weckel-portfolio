@@ -19,7 +19,6 @@ $port_show: 15%;
   }
 }
 
-
 .page-portfolio.ng-enter, .page-portfolio.ng-leave {
   position:absolute;
   @include trans($trans_speed linear all);
@@ -65,10 +64,6 @@ project-sidebar{
   text-align: center;
   // border-left: 1px solid black;
   box-shadow: inset 10px -1px 22px -8px;;
-  // background-image: linear-gradient(45deg, $sidebar-grey 25%, transparent 25%, transparent 75%, $sidebar-grey 75%, $sidebar-grey),
-  // linear-gradient(45deg, $sidebar-grey 25%, transparent 25%, transparent 75%, $sidebar-grey 75%, $sidebar-grey);
-  // background-size:60px 60px;
-  // background-position:0 0, 30px 30px;
 }
 
 project-sidebar.active{
@@ -97,7 +92,6 @@ project-sidebar p{
 .content-full-development{
   margin-top: 50px;
 }
-
 
 $btn-height: 50px;
 $btn-bg: rgba(255, 255, 255, 0.8);
