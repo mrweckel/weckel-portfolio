@@ -58,8 +58,9 @@ process.chdir(__dirname);
 //   sails.lift(rc('sails'));
 // })();
 if (process.env.NODE_ENV === 'production'){
-    sails.lift(rc('sails', {hooks:{grunt:false}});
+    sails.lift(rc('sails', {hooks:{grunt:false}}));
 }
 else{
     sails.lift(rc('sails'));
   }
+);
