@@ -268,16 +268,18 @@ h3{
 
 #icon-container{
   position: absolute;
-  height: 375px;
-  left: 23.5%;
+  height: 55px;
+  bottom: 35%;
+  left: 50%;
+  width: 603px;
+  transform: translate(-50%,0);
 }
 
 .social-icons{
   margin: 0 auto;
-  padding: 0;
   white-space: nowrap;
   overflow: auto;
-  width: 430px;
+  width: 602px;
   position: absolute;
   bottom: 0;
 }
@@ -291,11 +293,20 @@ h3{
   margin-right: 30px;
 }
 
+.email{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+}
+
+
 .linkedin{
   background: url("/images/icon-sprite.png") top left no-repeat;
   display: block;
   height: 54px;
   width: 56px;
+  background-position: -92px 0;
 }
 
 .github{
@@ -303,7 +314,7 @@ h3{
   display: block;
   height: 54px;
   width: 56px;
-  background-position: -91px 0;
+  background-position: -184px 0;
 }
 
 .vimeo{
@@ -311,7 +322,7 @@ h3{
   display: block;
   height: 54px;
   width: 56px;
-  background-position: -180px 0;
+  background-position: -271px 0;
 }
 
 .instagram{
@@ -319,7 +330,7 @@ h3{
   display: block;
   height: 54px;
   width: 56px;
-  background-position: -268px 0;
+  background-position: -360px 0;
 }
 
 .twitter{
@@ -327,7 +338,15 @@ h3{
   display: block;
   height: 54px;
   width: 56px;
-  background-position: -354px 0;
+  background-position: -447px 0;
+}
+
+.challenge-post{
+  background: url("/images/icon-sprite.png") top left no-repeat;
+  display: block;
+  height: 54px;
+  width: 56px;
+  background-position: -542px 0;
 }
 
 /*Accents*/
