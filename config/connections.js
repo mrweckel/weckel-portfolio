@@ -30,9 +30,18 @@ module.exports.connections = {
   //   // password: 'password',
   // },
 
-  productionMongoHqDb: {
-    adapter: 'sails-mongo',
-    url: process.env.MONGOHQ_URL
+  myModulusServer: {
+    adapter   : 'sails-mongo',
+    host      : 'proximus.modulusmongo.net',
+    port      : 27017,
+    // user      : 'mrweckel',
+    // password  : 'ewing1231',
+    database  : 'WECKEL-INTERACTIVE-DB'
   }
+
+  // productionMongoHqDb: {
+  //   adapter: 'sails-mongo',
+  //   url: process.env.MONGOHQ_URL
+  // }
 
 };

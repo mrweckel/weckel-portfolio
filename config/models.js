@@ -14,7 +14,7 @@ module.exports.models = {
   // connection: 'myMongodbServer',
 
   //production
-  connection: 'productionMongoHqDb',
+  connection: 'myModulusServer',
   /***************************************************************************
   *                                                                          *
   * How and whether Sails will attempt to automatically rebuild the          *
