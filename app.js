@@ -63,4 +63,4 @@ if (process.env.NODE_ENV === 'production'){
 else{
     sails.lift(rc('sails'));
   }
-);
+});
