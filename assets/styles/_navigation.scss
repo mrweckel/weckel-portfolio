@@ -28,8 +28,8 @@ site-navigation{
   transform: translate($x, $y) rotate(#{$deg}deg);
 }
 
-#portfolio{
-  @include nav-pos(top, 2.5%, left, 50%);
+#fun{
+  @include nav-pos(top, 0, left, 50%);
   @include nav-trans(-50%,0,-180);
 }
 

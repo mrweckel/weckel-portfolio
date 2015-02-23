@@ -19,7 +19,17 @@
     .when('/portfolio', {
       templateUrl: 'templates/portfolio.html',
       controller: 'ContentController'
-    });
+    })
+
+    .when('/client',{
+      templateUrl: 'templates/client.html',
+      controller: 'ClientController'
+    })
+
+    .when('/fun', {
+      templateUrl: 'templates/fun.html',
+      controller: 'FunController'
+    })
 
   });
 
@@ -29,6 +39,14 @@
 
   app.controller('AboutController', function($scope){
       $scope.pageClass = 'page-about';
+  });
+
+  app.controller('ClientController', function($scope){
+      $scope.pageClass = 'page-client';
+  });
+
+  app.controller('FunController', function($scope){
+      $scope.pageClass = 'fun-client';
   });
 
   app.controller('ContentController',function($scope){
