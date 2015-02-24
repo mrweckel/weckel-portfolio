@@ -508,11 +508,13 @@ hr{
   }
 
   #weckel{
-    position: static;
+    position: relative;
     width: 375px;
     height: 100%;
     top: 75px;
     left: 50%;
+    margin-left: -190px;
+    margin-top: -75px;
     z-index: 1;
   }
 
@@ -627,10 +629,9 @@ hr{
   }
 
   .email{
-    position: absolute;
-    bottom: -900px;
-    left: 42.5%;
-    padding-bottom: 20px;
+    position: static;
+    top: 50%;
+    left: .5%;
   }
 }
 
