@@ -129,6 +129,10 @@ $btn-color: #000;
   color: invert($btn-color);
 }
 
+#close-mobile{
+    visibility: hidden;
+  }
+
 //footer
 footer#sidebar{
   border: 1px solid #000;
