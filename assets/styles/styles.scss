@@ -500,6 +500,11 @@ hr{
 /*Media Queries*/
 @media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
+
+  html,body{
+    background: url("/images/crossword.png");
+  }
+
   #weckel{
     position: relative;
     width: 375px;
