@@ -593,9 +593,18 @@ hr{
     left:-50%;
   }
 
-  project-sidebar{
+  #sidebar-wrapper{
     width: 350px;
+  }
+
+  project-sidebar{
+    width: 90%;
     z-index: 100;
+    margin: 0 auto;
+  }
+
+  #project-mobile{
+    width: 85%;
     margin: 0 auto;
   }
 
