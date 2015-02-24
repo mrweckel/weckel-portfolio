@@ -501,52 +501,48 @@ hr{
 @media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
   #weckel{
+    position: relative;
     width: 375px;
-    height: 667px;
-    position: absolute;
-    top: 50%;
+    height: 100%;
+    top: 75px;
     left: 50%;
-    margin-left: -175px;
+    margin-left: -190px;
     margin-top: -75px;
     z-index: 1;
   }
-
- #about{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -100px;
-    margin-top: 10px;
-    z-index: 100;
-  }
-
-  #portfolio{
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    margin-right: -125px;
-    margin-top: 10px;
-    z-index: 100;
-  }
-
 
   #weckel-text {
     font-size: 2em;
   }
 
-  // #particles-js{
-  // visibility: hidden;
-  // }
+.page-portfolio.ng-enter, .page-portfolio.ng-leave,
+ {
+   -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+#arrow-up{
+  visibility: hidden;
+}
 
   #mobile{
     visibility: visible;
-    width: 75%;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%,0);
   }
 
+  #gallery{
+  display: block;
+  margin: 0;
+  // overflow: hidden;
+   width: 375px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    margin-left: -16.5%;
+    margin-top: 0;
+    z-index: 1;
+}
 
 
   h1{
@@ -575,10 +571,20 @@ hr{
 
   site-navigation{
     font-size: 1.5em;
+    visibility: hidden;
   }
 
-  #fun, #client{
-    visibility: hidden;
+  .page-portfolio{
+    z-index: 99;
+  }
+
+  #portfolio-container.slide{
+    left:-50%;
+  }
+
+  project-sidebar{
+    width: 375px;
+    z-index: 100;
   }
 }
 
