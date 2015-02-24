@@ -498,7 +498,7 @@ hr{
 }
 
 /*Media Queries*/
-@media only screen
+@media screen
     and (min-device-width : 350px)
     and (max-device-width : 667px)
     and (orientation : portrait)
@@ -550,7 +550,7 @@ hr{
   }
 }
 
-@media only screen
+@media screen
     and (min-device-width : 375px)
     and (max-device-width : 667px)
     and (orientation : landscape)
