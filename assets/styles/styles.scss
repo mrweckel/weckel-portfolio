@@ -498,11 +498,7 @@ hr{
 }
 
 /*Media Queries*/
-@media screen
-    and (min-device-width : 350px)
-    and (max-device-width : 667px)
-    and (orientation : portrait)
-    and (-webkit-min-device-pixel-ratio : 2)
+@media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
   #weckel{
     top: 7.5%
@@ -550,11 +546,7 @@ hr{
   }
 }
 
-@media screen
-    and (min-device-width : 375px)
-    and (max-device-width : 667px)
-    and (orientation : landscape)
-    and (-webkit-min-device-pixel-ratio : 2)
+@media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
     #weckel{
     top: 7.5%
