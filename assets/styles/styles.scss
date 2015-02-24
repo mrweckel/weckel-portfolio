@@ -501,7 +501,7 @@ hr{
 @media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
   #weckel{
-    top: 7.5%
+    // top: 7.5%
   }
 
   #weckel-text {
@@ -542,14 +542,14 @@ hr{
   }
 
   site-navigation{
-    visibility: hidden;
+    font-size: 1.5em;
   }
 }
 
 @media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
-    #weckel{
-    top: 7.5%
+   #weckel{
+    // top: 7.5%
   }
 
   #weckel-text {
@@ -590,6 +590,6 @@ hr{
   }
 
   site-navigation{
-    visibility: hidden;
+    font-size: 1.5em;
   }
 }
