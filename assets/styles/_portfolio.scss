@@ -81,6 +81,17 @@ project-sidebar p{
   margin: 50px 20px 0 20px;
 }
 
+.close-btn{
+   background: url("/images/close.png") no-repeat;
+  height: 64px;
+  margin: 5% 0px -5% 80%;
+  transform: scale(.75);
+  &:hover{
+    cursor: pointer;
+  }
+}
+
+
 
 
 //images
