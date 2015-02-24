@@ -511,6 +511,10 @@ hr{
     z-index: 1;
   }
 
+  #particles-js{
+    visibility: hidden;
+}
+
   #weckel-text {
     font-size: 2em;
   }
@@ -576,6 +580,7 @@ hr{
 
   .page-portfolio{
     z-index: 99;
+    position: fixed;
   }
 
   #portfolio-container.slide{
@@ -585,6 +590,14 @@ hr{
   project-sidebar{
     width: 375px;
     z-index: 100;
+  }
+
+  .index.ng-enter, .index.ng-leave {
+    position:absolute;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
   }
 }
 
