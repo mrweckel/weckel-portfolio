@@ -76,6 +76,15 @@
     }
   });
 
+    app.directive('portfolioMobile', function(){
+    return{
+      restrict: 'E',
+      templateUrl: 'templates/portfolio.html'
+    }
+  });
+
+
+
 //SIDEBAR BEGIN
   app.directive("projectSidebar", function(){
     return{
