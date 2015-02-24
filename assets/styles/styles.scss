@@ -503,6 +503,7 @@ hr{
 
   html,body{
     background: url("/images/crossword.png");
+    width: 375px;
   }
 
   #weckel{
@@ -593,8 +594,9 @@ hr{
   }
 
   project-sidebar{
-    width: 375px;
+    width: 350px;
     z-index: 100;
+    margin: 0 auto;
   }
 
   .index.ng-enter, .index.ng-leave {
