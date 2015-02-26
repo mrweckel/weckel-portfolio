@@ -37,12 +37,7 @@
       };
   });
 
-  app.directive('siteNavigation', function(){
-    return{
-      restrict: 'E',
-      templateUrl: 'templates/site-navigation.html'
-    }
-  });
+
 
   app.directive('index', function(){
     return{
