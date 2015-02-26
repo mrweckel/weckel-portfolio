@@ -216,13 +216,6 @@ max-width: 100%;
   left: -30.5%;
 }
 
-// #login-form{
-//   position: fixed;
-//   top: 50%;
-//   left: 50%;
-//   transform: translate(-50%,-50%);
-// }
-
 #login-form > input{
   display: block;
   transform-origin:left top;
@@ -498,6 +491,7 @@ hr{
 }
 
 /*Media Queries*/
+/*NEEDS REFACTORING!!!!!*/
 @media screen and (max-device-width: 375px) and (max-device-height: 667px)
 {
 
@@ -652,56 +646,3 @@ hr{
 
 
 }
-
-// @media screen and (max-device-width: 375px) and (max-device-height: 667px)
-// {
-//    #weckel{
-//     top: 7.5%;
-//     width:50%;
-//   }
-
-//   #weckel-text {
-//     font-size: 2em;
-//   }
-
-//   #mobile{
-//     visibility: visible;
-//     width: 75%;
-//     position: absolute;
-//     top: 10%;
-//     left: 50%;
-//     transform: translate(-50%,0);
-//   }
-
-//   h1{
-//     font-size: 1em;
-//     text-align: center;
-//   }
-
-//   h2{
-//     font-size: 1.5em;
-//     text-align: center;
-//   }
-
-//   p{
-//     text-align: center;
-//   }
-
-//   hr{
-//     width: 65%;
-//     margin: 10px auto;
-//   }
-
-//   .content-full-film {
-//     border: #000 1px solid;
-//     margin:0;
-//   }
-
-//   site-navigation{
-//     font-size: 1.5em;
-//   }
-
-//   #fun, #client{
-//     visibility: hidden;
-//   }
-// }
