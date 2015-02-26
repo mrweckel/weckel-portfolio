@@ -1,7 +1,12 @@
 (function(){
   'use strict'
 
-  var app = angular.module('port', ['angular-velocity','ngRoute','ngAnimate']);
+  var app = angular.module('port', [
+                           'ngRoute'
+                          ,'ngAnimate'
+                          ,'routes'
+                          ,'index'
+                          ]);
 
   app.config(function($routeProvider){
     $routeProvider
