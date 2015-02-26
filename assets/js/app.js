@@ -8,39 +8,9 @@
                           ,'index'
                           ]);
 
-  app.config(function($routeProvider){
-    $routeProvider
 
-    .when('/',{
-      templateUrl : 'templates/index.html',
-      controller: "IndexController"
-    })
 
-    .when('/about', {
-      templateUrl: 'templates/about.html',
-      controller: 'AboutController'
-    })
 
-    .when('/portfolio', {
-      templateUrl: 'templates/portfolio.html',
-      controller: 'ContentController'
-    })
-
-    .when('/client',{
-      templateUrl: 'templates/client.html',
-      controller: 'ClientController'
-    })
-
-    .when('/fun', {
-      templateUrl: 'templates/fun.html',
-      controller: 'FunController'
-    })
-
-  });
-
-  app.controller('IndexController', function($scope){
-      $scope.pageClass = 'index';
-  });
 
   app.controller('AboutController', function($scope){
       $scope.pageClass = 'page-about';
