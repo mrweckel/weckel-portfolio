@@ -1,0 +1,25 @@
+<div id="portfolio-container" ng-controller="ContentController as contentCtrl" ng-class="{slide: contentCtrl.page != 0}">
+  <div id="gallery-container">
+
+    <div id="gallery"
+         ng-repeat="project in contentCtrl.projects">
+
+      <a href ng-click="contentCtrl.setPage(project.id)">
+        <div class="thumb-overlay" >
+          <h3>{{project.title}}</h3>
+          <p>{{project.id}}</p>
+        </div>
+        <img class = "content-thumbs" ng-src="{{project.images[0].thumb}}"/>
+      </div>
+     </a>
+
+    <a href="#/" id="arrow-up" ></a>
+
+
+  </div>
+
+  <div id="sidebar-wrapper">
+    <project-sidebar ng-class="{active : contentCtrl.page != 0}"></project-sidebar>
+  </div>
+
+</div>

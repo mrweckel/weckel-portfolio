@@ -27,15 +27,17 @@ var jsFilesToInject = [
   'js/dependencies/sails.io.js',
 
   //Load velocity in correct order
-  'js/dependencies/velocity.min.js',
-  'js/dependencies/velocity.ui.min.js',
-  'js/dependencies/angular-velocity.min.js',
+  'js/dependencies/angular.min.js',
+  'js/dependencies/angular-animate.min.js',
+  'js/dependencies/angular-route.min.js',
 
   // Dependencies like jQuery, or Angular are brought in here
   'js/dependencies/**/*.js',
 
   // All of the rest of your client-side js files
   // will be injected here in no particular order.
+  'js/modules/routes.js',
+  'js/modules/*.js',
   'js/**/*.js'
 ];
 

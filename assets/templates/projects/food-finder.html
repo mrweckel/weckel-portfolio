@@ -3,11 +3,21 @@
 <h1>{{food.project.title}}</h1>
 <hr/>
 
-<a class="no-style" href="{{food.project.github}}">
-  <div class="btn">
-    <p>Peep the code</p>
-  </div>
-</a>
+<div class="two-buttons">
+  <a href="{{food.project.url}} " target="_blank">
+    <div class="btn-a">
+      <p>Visit The Site</p>
+    </div>
+  </a>
+
+  <a href="{{food.project.github}}" target="_blank">
+    <div class="btn-b">
+      <p>Peep the code</p>
+    </div>
+  </a>
+</div>
+
+<div id="clear"></div>
 
 <p>A social network of Devbootcamp students that rate and suggest local restaurants. Like Yelp, but not really, but kind of.</p>
 
