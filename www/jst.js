@@ -84,7 +84,7 @@ this["JST"]["assets/templates/projects/dreams.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[0]}}"/>\n\n<h1>{{dreams.project.title}}</h1>\n<hr/>\n\n<div class="two-buttons">\n  <a href="{{dreams.project.url}}">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{dreams.project.github}}">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n<div id="clear"></div>\n\n<p>An interactive experience that allows a user to view their media in a new way. The biggest thing to happen to home videos since Saget.</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, Ruby on Rails, HTML, CSS, JQuery, JQuery UI, PostgreSQL, YouTube API, Google Oauth2, Jasmine, Rspec</p>\n</footer>';
+__p += '<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[0]}}"/>\n\n<h1>{{dreams.project.title}}</h1>\n<hr/>\n\n<div class="two-buttons">\n  <a href="{{dreams.project.url}}" target="_blank">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{dreams.project.github}}" target="_blank">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n<div id="clear"></div>\n\n<p>An interactive experience that allows a user to view their media in a new way. The biggest thing to happen to home videos since Saget.</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{dreams.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, Ruby on Rails, HTML, CSS, JQuery, JQuery UI, PostgreSQL, YouTube API, Google Oauth2, Jasmine, Rspec</p>\n</footer>';
 
 }
 return __p
@@ -94,7 +94,7 @@ this["JST"]["assets/templates/projects/dumbo.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[0]}}"/>\n\n<h1>{{dumbo.project.title}}</h1>\n<hr/>\n\n<a class="no-style" href="{{dumbo.project.video_url}}">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Crossing Dumbo is a web series chronicling the awesome people of DUMBO. I am still waiting for the episode about me. </p>\n\n<p>Position: Director</p>\n\n<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>';
+__p += '<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[0]}}"/>\n\n<h1>{{dumbo.project.title}}</h1>\n<hr/>\n\n<a class="no-style" href="{{dumbo.project.video_url}}" target="_blank">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Crossing Dumbo is a web series chronicling the awesome people of DUMBO. I am still waiting for the episode about me. </p>\n\n<p>Position: Director</p>\n\n<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{dumbo.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>';
 
 }
 return __p
@@ -104,7 +104,7 @@ this["JST"]["assets/templates/projects/ferrari.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[0]}}"/>\n\n<h1>{{ferrari.project.full_title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{ferrari.project.video_url}}">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Killer short film commissioned by popular website Gear Patrol and produced by LonelyLeap Digital Creative Agency.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n';
+__p += '<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[0]}}"/>\n\n<h1>{{ferrari.project.full_title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{ferrari.project.video_url}}" target="_blank">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Killer short film commissioned by popular website Gear Patrol and produced by LonelyLeap Digital Creative Agency.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{ferrari.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n';
 
 }
 return __p
@@ -114,7 +114,7 @@ this["JST"]["assets/templates/projects/food-finder.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-development" ng-src="{{food.project.images[0].full[0]}}"/>\n\n<h1>{{food.project.title}}</h1>\n<hr/>\n\n<div class="two-buttons">\n  <a href="{{food.project.url}}">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{food.project.github}}">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n<p>A social network of Devbootcamp students that rate and suggest local restaurants. Like Yelp, but not really, but kind of.</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{food.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{food.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, HTML, CSS, Sinatra, Bootstrap</p>\n</footer>';
+__p += '<img class= "content-full-development" ng-src="{{food.project.images[0].full[0]}}"/>\n\n<h1>{{food.project.title}}</h1>\n<hr/>\n\n<div class="two-buttons">\n  <a href="{{food.project.url}} " target="_blank">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{food.project.github}}" target="_blank">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n<div id="clear"></div>\n\n<p>A social network of Devbootcamp students that rate and suggest local restaurants. Like Yelp, but not really, but kind of.</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{food.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{food.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, HTML, CSS, Sinatra, Bootstrap</p>\n</footer>';
 
 }
 return __p
@@ -124,7 +124,7 @@ this["JST"]["assets/templates/projects/mastermind.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[0]}}"/>\n\n<h1>{{mastermind.project.title}}</h1>\n\n<hr></hr>\n\n<div class="two-buttons">\n  <a href="{{mastermind.project.url}}">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{mastermind.project.github}}">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n\n<div id="clear"></div>\n\n<p>A tribute to the greatest artist of our generation using pure OOJS. Just a little something to hold you over until Expendables 4.</p>\n\n<p>Position: Front End Developer</p>\n\n<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>JavaScript, HTML, CSS</p>\n</footer>';
+__p += '<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[0]}}"/>\n\n<h1>{{mastermind.project.title}}</h1>\n\n<hr></hr>\n\n<div class="two-buttons">\n  <a href="{{mastermind.project.url}}" target="_blank">\n    <div class="btn-a">\n      <p>Visit The Site</p>\n    </div>\n  </a>\n\n  <a href="{{mastermind.project.github}}" target="_blank">\n    <div class="btn-b">\n      <p>Peep the code</p>\n    </div>\n  </a>\n</div>\n\n\n<div id="clear"></div>\n\n<p>A tribute to the greatest artist of our generation using pure OOJS. Just a little something to hold you over until Expendables 4.</p>\n\n<p>Position: Front End Developer</p>\n\n<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{mastermind.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>JavaScript, HTML, CSS</p>\n</footer>';
 
 }
 return __p
@@ -134,7 +134,7 @@ this["JST"]["assets/templates/projects/pitchstart.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[0]}}"/>\n\n<h1>{{pitchstart.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{pitchstart.project.github}}">\n  <div class="btn">\n    <p>Peep the code</p>\n  </div>\n</a>\n\n<p>Web application that allows people to post pitches that they want feedback on. Alternate title: "Putting yourself out there to fail miserably in front of friends, families, and strangers."</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, Ruby on Rails, HTML, CSS, Bootstrap, JQuery, AJAX, JQuery UI, PostgreSQL, YouTube API, Google Oauth2, Jasmine, Rspec</p>\n</footer>\n';
+__p += '<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[0]}}"/>\n\n<h1>{{pitchstart.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{pitchstart.project.github}}" target="_blank">\n  <div class="btn">\n    <p>Peep the code</p>\n  </div>\n</a>\n\n<p>Web application that allows people to post pitches that they want feedback on. Alternate title: "Putting yourself out there to fail miserably in front of friends, families, and strangers."</p>\n\n<p>Position: Full Stack Developer</p>\n\n<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[1]}}"/>\n<img class= "content-full-development" ng-src="{{pitchstart.project.images[0].full[2]}}"/>\n\n<footer id="sidebar">\n  <p>Technologies Used:</p>\n  <p>Javascript, Ruby on Rails, HTML, CSS, Bootstrap, JQuery, AJAX, JQuery UI, PostgreSQL, YouTube API, Google Oauth2, Jasmine, Rspec</p>\n</footer>\n';
 
 }
 return __p
@@ -144,7 +144,7 @@ this["JST"]["assets/templates/projects/static.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-film" ng-src="{{static.project.images[0].full[0]}}"/>\n\n<h1>{{static.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{static.project.video_url}}">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Music video commissioned by NYC rockstars, The Dirty Pearls. One of the first videos online to make use of the Xbox Kinect. I\'m talking pre-SDK people!</p>\n\n<p>Position: Director</p>\n\n<img class= "content-full-film" ng-src="{{static.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{static.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n';
+__p += '<img class= "content-full-film" ng-src="{{static.project.images[0].full[0]}}"/>\n\n<h1>{{static.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{static.project.video_url}}" target="_blank">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Music video commissioned by NYC rockstars, The Dirty Pearls. One of the first videos online to make use of the Xbox Kinect. I\'m talking pre-SDK people!</p>\n\n<p>Position: Director</p>\n\n<img class= "content-full-film" ng-src="{{static.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{static.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n';
 
 }
 return __p
@@ -154,7 +154,7 @@ this["JST"]["assets/templates/projects/wearable.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[0]}}"/>\n\n<h1>{{wearable.project.title}}</h1>\n<hr/>\n\n<a class="no-style" href="{{wearable.project.video_url}}">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Episode one of the "Make It Wearable" series from Intel and The Creators\' Project over at VICE. One of the biggest inspirations on me joining a bootcamp and committing to a career in tech.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>';
+__p += '<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[0]}}"/>\n\n<h1>{{wearable.project.title}}</h1>\n<hr/>\n\n<a class="no-style" href="{{wearable.project.video_url}}" target="_blank">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Episode one of the "Make It Wearable" series from Intel and The Creators\' Project over at VICE. One of the biggest inspirations on me joining a bootcamp and committing to a career in tech.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{wearable.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>';
 
 }
 return __p
@@ -164,7 +164,7 @@ this["JST"]["assets/templates/projects/youtube.html"] = function(obj) {
 obj || (obj = {});
 var __t, __p = '', __e = _.escape;
 with (obj) {
-__p += '<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[0]}}"/>\n\n<h1>{{youtube.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{youtube.project.video_url}}">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Behind the Scenes at the YouTube Music Awards. Skip to 11:44 to see Jason Schwartzman pull an etch-a-sketch out of his nether region.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n\n';
+__p += '<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[0]}}"/>\n\n<h1>{{youtube.project.title}}</h1>\n\n<hr></hr>\n\n<a class="no-style" href="{{youtube.project.video_url}}" target="_blank">\n  <div class="btn">\n    <p>Watch the Film</p>\n  </div>\n</a>\n\n<p>Behind the Scenes at the YouTube Music Awards. Skip to 11:44 to see Jason Schwartzman pull an etch-a-sketch out of his nether region.</p>\n\n<p>Position: Film Editor</p>\n\n<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[1]}}"/>\n<img class= "content-full-film" ng-src="{{youtube.project.images[0].full[2]}}"/>\n\n<footer id="empty">\n</footer>\n\n';
 
 }
 return __p

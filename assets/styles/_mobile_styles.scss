@@ -1,0 +1,148 @@
+html,body{
+    background: url("/images/crossword.png");
+    width: 375px;
+    height: 100%;
+  }
+
+  #weckel{
+    position: relative;
+    width: 375px;
+    height: 100%;
+    top: 75px;
+    left: 50%;
+    margin-left: -190px;
+    margin-top: -75px;
+    z-index: 1;
+  }
+
+  #particles-js{
+    visibility: hidden;
+}
+
+  #weckel-text {
+    font-size: 2em;
+  }
+
+.page-portfolio.ng-enter, .page-portfolio.ng-leave,
+ {
+   -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+}
+
+#arrow-up{
+  visibility: hidden;
+}
+
+  #mobile{
+    visibility: visible;
+  }
+
+  #gallery{
+  display: block;
+  margin: 0;
+  // overflow: hidden;
+   width: 375px;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    margin-left: -16.5%;
+    margin-top: 0;
+    z-index: 1;
+}
+
+
+  h1{
+    font-size: 1em;
+    text-align: center;
+  }
+
+  h2{
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+  p{
+    text-align: center;
+  }
+
+  hr{
+    width: 65%;
+    margin: 10px auto;
+  }
+
+  .content-full-film {
+    border: #000 1px solid;
+    margin:0;
+  }
+
+  site-navigation{
+    font-size: 1.5em;
+    visibility: hidden;
+  }
+
+  .page-portfolio{
+    z-index: 99;
+    // position: fixed;
+  }
+
+  #portfolio-container.slide{
+    left:-50%;
+  }
+
+  #sidebar-wrapper{
+    width: 350px;
+  }
+
+  project-sidebar{
+    width: 90%;
+    z-index: 100;
+    margin: 0 auto;
+  }
+
+  #project-mobile{
+    width: 85%;
+    margin: 0 auto;
+  }
+
+  .index.ng-enter, .index.ng-leave {
+    position:absolute;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: color 0 ease-in;
+    transition: none;
+  }
+
+  #close-mobile{
+    visibility: visible;
+    background: #000;
+    color: #fff;
+    height: 50px;
+    p{
+      line-height: 50px;
+      font-size: 1.3em;
+    }
+  }
+
+  .email{
+    position: static;
+    top: 50%;
+    left: .5%;
+  }
+
+  .close-btn{
+    background-size: 50%;
+  }
+
+  .btn-a{
+  display: block;
+  float: none;
+  margin: 10px auto;
+}
+
+.btn-b{
+  display:block;
+  float:none;
+  margin: 10px auto;
+}
